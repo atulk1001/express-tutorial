@@ -1,0 +1,37 @@
+2025/01/22 11:43:45	9f6bbd04-d444-47bb-bb5e-d8a009780fdc	Error: Not Allowed by CORS
+
+2025/01/22 11:45:03	717b52f0-9365-4159-9719-8afd4eeae058	Error: Not Allowed by CORS
+
+2025/01/22 11:45:03	a0d2ee7b-4d47-4fba-bbdd-420b38a8563a	Error: Not Allowed by CORS
+
+2025/01/22 11:46:36	fd4226da-63bd-4a25-847f-9a76bfe6dbfd	Error: Not Allowed by CORS
+
+2025/01/22 11:46:36	9228a8f3-ef22-4d49-bf5f-6177d9e20ba3	Error: Not Allowed by CORS
+
+2025/01/22 11:47:20	910ba609-6762-462f-b5fe-76af7277983b	Error: Not Allowed by CORS
+
+2025/01/22 11:47:44	7664006e-c910-402b-9c3f-1565cb67ab44	TypeError: name argument is required to req.get
+
+2025/01/22 11:48:23	0956cf1f-d00b-4146-a8d9-bcc62fdf2c18	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+
+2025/01/22 11:48:47	505380c7-188b-4015-8760-124fc79bc858	Error: Not Allowed by CORS
+
+2025/01/24 01:09:46	a390c4d5-3651-4ab8-bc2d-f764244a9d4a	SyntaxError: Expected property name or '}' in JSON at position 1
+
+2025/01/24 01:10:09	17183aec-e6b8-4a10-a079-567a3d6d4f45	SyntaxError: Expected property name or '}' in JSON at position 1
+
+2025/01/24 01:12:44	0b1c14b4-3d3e-45ae-884d-fc94c1cead92	SyntaxError: Expected property name or '}' in JSON at position 1
+
+2025/01/24 01:15:51	915d693e-8945-4395-8ea2-d64f559f2bc3	SyntaxError: Expected property name or '}' in JSON at position 1
+
+2025/01/24 01:16:58	e125918d-2a00-4387-8a78-a518775731d4	SyntaxError: Expected property name or '}' in JSON at position 1
+
+2025/01/24 01:19:22	c6564cab-c71f-44f8-867e-078aae43f769	SyntaxError: Expected property name or '}' in JSON at position 1
+
+2025/01/24 01:24:01	19257881-8dc6-4a7c-908c-11434e35b228	SyntaxError: Expected property name or '}' in JSON at position 1
+
+2025/01/24 01:24:03	3a9b311b-7ca6-4291-b68b-faf039e40640	SyntaxError: Expected property name or '}' in JSON at position 1
+
