@@ -1,10 +1,1 @@
-[
-  {
-    "username": "ABC",
-    "password": "$2b$10$R1vWIDaB/JnJsDwsP6xIFu/enDeB8eDH2hRSuhPZC6wj/IpWYf2YK"
-  },
-  {
-    "username": "atulk",
-    "password": "$2b$10$Ml4kFHYTlZWdWJcVopCDSuQ5nho1JluwZB8cBq5xww3Pi3Xo8Je1m"
-  }
-]
+[{"username":"ABC","password":"$2b$10$R1vWIDaB/JnJsDwsP6xIFu/enDeB8eDH2hRSuhPZC6wj/IpWYf2YK"},{"username":"atulk","password":"$2b$10$Ml4kFHYTlZWdWJcVopCDSuQ5nho1JluwZB8cBq5xww3Pi3Xo8Je1m","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYXR1bGsiLCJpYXQiOjE3Mzc5MTczMzUsImV4cCI6MTczODAwMzczNX0.V3qw8lg_3AsCT2LuzhlNERxwNrFKnZH0XW5kzcHS6ao"},{"username":"neha","password":"$2b$10$bDS6FkDbFroXswt6ByoIF.hOBuWN15pLjaGmf/6kVnrCFka0P.Vhm"},{"username":"Rakhi","password":"$2b$10$UYwp9aOkUW20GUF3z2hIyea49pLeTxbWjn7ZQZy4MEYseRkcxTgCS","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiUmFraGkiLCJpYXQiOjE3Mzc5MTc0NzEsImV4cCI6MTczODAwMzg3MX0._CcPczIQYG3wik6ToDx1F8LGx6nY3B8yNmdkQpq8bYY"}]

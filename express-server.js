@@ -3,22 +3,25 @@ const path = require("path");
 const app = express();
 const cors = require("cors");
 const corsOptions = require("./config/corsOptions");
-const PORT = process.env.PORT || 3500;
+const cookieParser = require("cookie-parser");
 const { logger } = require("./middleware/logEvents");
 const errorHandler = require("./middleware/errorHandler");
-// custom middleware logger
+const verifyJWT = require("./middleware/verifyJWT");
+const PORT = process.env.PORT || 3500;
+
+// custom middleware logger for logging http request
 app.use(logger);
 
 //Cross Origin Resource Sharing, a Third party middleware
 
 app.use(cors(corsOptions));
 // inbuilt middleware
-
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
+app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "/public")));
 
-// routes
+// Web Page routes
 app.get("^/$|home|index(.html)?", (req, res) => {
   res.sendFile(path.join(__dirname, "views", "index.html"));
 });
@@ -41,10 +44,14 @@ app.get(
     res.send("Hello World !");
   }
 );
-// API's
-app.use("/auth", require("./routes/api/auth"));
-app.use("/employees", require("./routes/api/emplyoees"));
+
+// API Routes
 app.use("/register", require("./routes/api/register"));
+app.use("/auth", require("./routes/api/auth"));
+app.use("/refresh", require("./routes/api/refresh"));
+app.use(verifyJWT); // middleware to verify JWT
+app.use("/employees", require("./routes/api/emplyoees"));
+
 app.get("/*", (req, res) => {
   res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
 });
